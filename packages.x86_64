@@ -308,9 +308,9 @@ xdg-user-dirs
 gufw
 
 # Browser
-# firefox
-# uncomment firefox if you want to use firefox, and comment brave-bin
-brave-bin
+firefox
+# uncomment brave if you want to use brave
+# brave-bin
 
 # Calamares dependencies (not listed elsewhere)
 boost
