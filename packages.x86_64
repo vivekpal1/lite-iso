@@ -286,7 +286,6 @@ volantes-cursors
 #Applications
 vlc
 pavucontrol
-preload
 ranger
 
 # crypto
@@ -308,9 +307,9 @@ xdg-user-dirs
 gufw
 
 # Browser
-firefox
+# firefox
 # uncomment brave if you want to use brave
-# brave-bin
+brave-bin
 
 # Calamares dependencies (not listed elsewhere)
 boost
