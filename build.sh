@@ -71,24 +71,15 @@ rm -r ./mkshastra/syslinux
 }
 
 # Copy shastrarepo to opt
-cpshastrarepo () {
-cp -r ./opt/shastrarepo /opt/
-}
-
-# Remove shastrarepo from opt
-rmshastrarepo () {
-rm -r /opt/shastrarepo
-}
-
-# Copy shastraaur to opt
-# cpshastraaur () {
-# cp -r ./opt/shastraaur /opt/
+# cpshastrarepo () {
+# cp -r ./opt/shastrarepo /opt/
 # }
 
-# Remove shastraaur from opt
-# rmshastraaur () {
-# rm -r /opt/shastraaur
+# # Remove shastrarepo from opt
+# rmshastrarepo () {
+# rm -r /opt/shastrarepo
 # }
+
 
 # Delete automatic login
 # nalogin () {
@@ -210,8 +201,7 @@ prepreqs
 cleanup
 cpmkshastra
 addnmlinks
-cpshastrarepo
-#cpshastraaur
+# cpshastrarepo
 #nalogin 
 rmunitsd
 cpmyfiles
@@ -224,5 +214,4 @@ setkeylayout
 crtkeyboard
 crtlocalec
 runmkarchiso
-rmshastrarepo
-#rmshastraaur
+# rmshastrarepo

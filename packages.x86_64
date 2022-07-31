@@ -280,16 +280,10 @@ maui-clip
 maui-shelf
 vvave
 
-# Theming
-volantes-cursors
-
 #Applications
-vlc
+clapper
 pavucontrol
 ranger
-
-# crypto
-kwalletmanager
 
 # Other and dependencies
 blueprint-compiler-git
@@ -351,3 +345,11 @@ mkinitcpio-openswap
 yay
 pamac-aur
 libpamac-aur
+
+# ShastraOS
+about-shastraos
+shastraos-hooks
+shastrarepo
+shastraos-artwork
+shastraos-icons
+shastraos-backgrounds
