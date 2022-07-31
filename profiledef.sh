@@ -24,5 +24,4 @@ file_permissions=(
   ["/usr/local/bin/shastramanager"]="0:0:755"
   ["/usr/local/bin/shastra.bios"]="0:0:755"
   ["/usr/local/bin/shastra.uefi"]="0:0:755"
-  ["/usr/local/bin/shastramanager"]="0:0:755"
 )
